@@ -1,0 +1,1577 @@
+[{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8693"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8694"
+  },
+  "//": "//",
+  "insert_books": {
+    "js": "Import"
+  },
+  "-": "MongoDB",
+  "Script": "client"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8695"
+  },
+  "//": "const",
+  "insert_books": {
+    "js": "{"
+  },
+  "-": "MongoClient",
+  "Script": "}",
+  "to": "=",
+  "populate": "require('mongodb');"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8696"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8697"
+  },
+  "//": "//",
+  "insert_books": {
+    "js": "Connection"
+  },
+  "-": "URI",
+  "Script": "(replace",
+  "to": "with",
+  "populate": "your",
+  "MongoDB": "MongoDB",
+  "with": "connection",
+  "sample": "string",
+  "book": "if",
+  "data": "using"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8698"
+  },
+  "//": "const",
+  "insert_books": {
+    "js": "uri"
+  },
+  "-": "=",
+  "Script": "'mongodb://localhost:27017';"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8699"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f869a"
+  },
+  "//": "//",
+  "insert_books": {
+    "js": "Database"
+  },
+  "-": "and",
+  "Script": "collection",
+  "to": "names"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f869b"
+  },
+  "//": "const",
+  "insert_books": {
+    "js": "dbName"
+  },
+  "-": "=",
+  "Script": "'plp_bookstore';"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f869c"
+  },
+  "//": "const",
+  "insert_books": {
+    "js": "collectionName"
+  },
+  "-": "=",
+  "Script": "'books';"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f869d"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f869e"
+  },
+  "//": "//",
+  "insert_books": {
+    "js": "Sample"
+  },
+  "-": "book",
+  "Script": "data"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f869f"
+  },
+  "//": "const",
+  "insert_books": {
+    "js": "books"
+  },
+  "-": "=",
+  "Script": "["
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a0"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a1"
+  },
+  "to": "title:",
+  "populate": "'To",
+  "MongoDB": "Kill",
+  "with": "a",
+  "sample": "Mockingbird',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a2"
+  },
+  "to": "author:",
+  "populate": "'Harper",
+  "MongoDB": "Lee',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a3"
+  },
+  "to": "genre:",
+  "populate": "'Fiction',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a4"
+  },
+  "to": "published_year:",
+  "populate": "1960,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a5"
+  },
+  "to": "price:",
+  "populate": "12.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a6"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a7"
+  },
+  "to": "pages:",
+  "populate": "336,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a8"
+  },
+  "to": "publisher:",
+  "populate": "'J.",
+  "MongoDB": "B.",
+  "with": "Lippincott",
+  "sample": "&",
+  "book": "Co.'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86a9"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86aa"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ab"
+  },
+  "to": "title:",
+  "populate": "'1984',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ac"
+  },
+  "to": "author:",
+  "populate": "'George",
+  "MongoDB": "Orwell',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ad"
+  },
+  "to": "genre:",
+  "populate": "'Dystopian',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ae"
+  },
+  "to": "published_year:",
+  "populate": "1949,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86af"
+  },
+  "to": "price:",
+  "populate": "10.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b0"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b1"
+  },
+  "to": "pages:",
+  "populate": "328,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b2"
+  },
+  "to": "publisher:",
+  "populate": "'Secker",
+  "MongoDB": "&",
+  "with": "Warburg'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b3"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b4"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b5"
+  },
+  "to": "title:",
+  "populate": "'The",
+  "MongoDB": "Great",
+  "with": "Gatsby',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b6"
+  },
+  "to": "author:",
+  "populate": "'F.",
+  "MongoDB": "Scott",
+  "with": "Fitzgerald',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b7"
+  },
+  "to": "genre:",
+  "populate": "'Fiction',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b8"
+  },
+  "to": "published_year:",
+  "populate": "1925,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86b9"
+  },
+  "to": "price:",
+  "populate": "9.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ba"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86bb"
+  },
+  "to": "pages:",
+  "populate": "180,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86bc"
+  },
+  "to": "publisher:",
+  "populate": "'Charles",
+  "MongoDB": "Scribner\\'s",
+  "with": "Sons'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86bd"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86be"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86bf"
+  },
+  "to": "title:",
+  "populate": "'Brave",
+  "MongoDB": "New",
+  "with": "World',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c0"
+  },
+  "to": "author:",
+  "populate": "'Aldous",
+  "MongoDB": "Huxley',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c1"
+  },
+  "to": "genre:",
+  "populate": "'Dystopian',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c2"
+  },
+  "to": "published_year:",
+  "populate": "1932,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c3"
+  },
+  "to": "price:",
+  "populate": "11.50,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c4"
+  },
+  "to": "in_stock:",
+  "populate": "false,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c5"
+  },
+  "to": "pages:",
+  "populate": "311,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c6"
+  },
+  "to": "publisher:",
+  "populate": "'Chatto",
+  "MongoDB": "&",
+  "with": "Windus'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c7"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c8"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86c9"
+  },
+  "to": "title:",
+  "populate": "'The",
+  "MongoDB": "Hobbit',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ca"
+  },
+  "to": "author:",
+  "populate": "'J.R.R.",
+  "MongoDB": "Tolkien',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86cb"
+  },
+  "to": "genre:",
+  "populate": "'Fantasy',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86cc"
+  },
+  "to": "published_year:",
+  "populate": "1937,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86cd"
+  },
+  "to": "price:",
+  "populate": "14.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ce"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86cf"
+  },
+  "to": "pages:",
+  "populate": "310,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d0"
+  },
+  "to": "publisher:",
+  "populate": "'George",
+  "MongoDB": "Allen",
+  "with": "&",
+  "sample": "Unwin'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d1"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d2"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d3"
+  },
+  "to": "title:",
+  "populate": "'The",
+  "MongoDB": "Catcher",
+  "with": "in",
+  "sample": "the",
+  "book": "Rye',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d4"
+  },
+  "to": "author:",
+  "populate": "'J.D.",
+  "MongoDB": "Salinger',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d5"
+  },
+  "to": "genre:",
+  "populate": "'Fiction',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d6"
+  },
+  "to": "published_year:",
+  "populate": "1951,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d7"
+  },
+  "to": "price:",
+  "populate": "8.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d8"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86d9"
+  },
+  "to": "pages:",
+  "populate": "224,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86da"
+  },
+  "to": "publisher:",
+  "populate": "'Little,",
+  "MongoDB": "Brown",
+  "with": "and",
+  "sample": "Company'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86db"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86dc"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86dd"
+  },
+  "to": "title:",
+  "populate": "'Pride",
+  "MongoDB": "and",
+  "with": "Prejudice',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86de"
+  },
+  "to": "author:",
+  "populate": "'Jane",
+  "MongoDB": "Austen',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86df"
+  },
+  "to": "genre:",
+  "populate": "'Romance',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e0"
+  },
+  "to": "published_year:",
+  "populate": "1813,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e1"
+  },
+  "to": "price:",
+  "populate": "7.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e2"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e3"
+  },
+  "to": "pages:",
+  "populate": "432,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e4"
+  },
+  "to": "publisher:",
+  "populate": "'T.",
+  "MongoDB": "Egerton,",
+  "with": "Whitehall'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e5"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e6"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e7"
+  },
+  "to": "title:",
+  "populate": "'The",
+  "MongoDB": "Lord",
+  "with": "of",
+  "sample": "the",
+  "book": "Rings',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e8"
+  },
+  "to": "author:",
+  "populate": "'J.R.R.",
+  "MongoDB": "Tolkien',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86e9"
+  },
+  "to": "genre:",
+  "populate": "'Fantasy',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ea"
+  },
+  "to": "published_year:",
+  "populate": "1954,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86eb"
+  },
+  "to": "price:",
+  "populate": "19.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ec"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ed"
+  },
+  "to": "pages:",
+  "populate": "1178,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ee"
+  },
+  "to": "publisher:",
+  "populate": "'Allen",
+  "MongoDB": "&",
+  "with": "Unwin'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ef"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f0"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f1"
+  },
+  "to": "title:",
+  "populate": "'Animal",
+  "MongoDB": "Farm',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f2"
+  },
+  "to": "author:",
+  "populate": "'George",
+  "MongoDB": "Orwell',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f3"
+  },
+  "to": "genre:",
+  "populate": "'Political",
+  "MongoDB": "Satire',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f4"
+  },
+  "to": "published_year:",
+  "populate": "1945,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f5"
+  },
+  "to": "price:",
+  "populate": "8.50,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f6"
+  },
+  "to": "in_stock:",
+  "populate": "false,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f7"
+  },
+  "to": "pages:",
+  "populate": "112,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f8"
+  },
+  "to": "publisher:",
+  "populate": "'Secker",
+  "MongoDB": "&",
+  "with": "Warburg'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86f9"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86fa"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86fb"
+  },
+  "to": "title:",
+  "populate": "'The",
+  "MongoDB": "Alchemist',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86fc"
+  },
+  "to": "author:",
+  "populate": "'Paulo",
+  "MongoDB": "Coelho',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86fd"
+  },
+  "to": "genre:",
+  "populate": "'Fiction',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86fe"
+  },
+  "to": "published_year:",
+  "populate": "1988,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f86ff"
+  },
+  "to": "price:",
+  "populate": "10.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8700"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8701"
+  },
+  "to": "pages:",
+  "populate": "197,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8702"
+  },
+  "to": "publisher:",
+  "populate": "'HarperOne'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8703"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8704"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8705"
+  },
+  "to": "title:",
+  "populate": "'Moby",
+  "MongoDB": "Dick',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8706"
+  },
+  "to": "author:",
+  "populate": "'Herman",
+  "MongoDB": "Melville',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8707"
+  },
+  "to": "genre:",
+  "populate": "'Adventure',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8708"
+  },
+  "to": "published_year:",
+  "populate": "1851,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8709"
+  },
+  "to": "price:",
+  "populate": "12.50,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f870a"
+  },
+  "to": "in_stock:",
+  "populate": "false,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f870b"
+  },
+  "to": "pages:",
+  "populate": "635,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f870c"
+  },
+  "to": "publisher:",
+  "populate": "'Harper",
+  "MongoDB": "&",
+  "with": "Brothers'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f870d"
+  },
+  "-": "},"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f870e"
+  },
+  "-": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f870f"
+  },
+  "to": "title:",
+  "populate": "'Wuthering",
+  "MongoDB": "Heights',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8710"
+  },
+  "to": "author:",
+  "populate": "'Emily",
+  "MongoDB": "Brontë',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8711"
+  },
+  "to": "genre:",
+  "populate": "'Gothic",
+  "MongoDB": "Fiction',"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8712"
+  },
+  "to": "published_year:",
+  "populate": "1847,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8713"
+  },
+  "to": "price:",
+  "populate": "9.99,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8714"
+  },
+  "to": "in_stock:",
+  "populate": "true,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8715"
+  },
+  "to": "pages:",
+  "populate": "342,"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8716"
+  },
+  "to": "publisher:",
+  "populate": "'Thomas",
+  "MongoDB": "Cautley",
+  "with": "Newby'"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8717"
+  },
+  "-": "}"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8718"
+  },
+  "//": "];"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8719"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f871a"
+  },
+  "//": "//",
+  "insert_books": {
+    "js": "Function"
+  },
+  "-": "to",
+  "Script": "insert",
+  "to": "books",
+  "populate": "into",
+  "MongoDB": "MongoDB"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f871b"
+  },
+  "//": "async",
+  "insert_books": {
+    "js": "function"
+  },
+  "-": "insertBooks()",
+  "Script": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f871c"
+  },
+  "-": "const",
+  "Script": "client",
+  "to": "=",
+  "populate": "new",
+  "MongoDB": "MongoClient(uri);"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f871d"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f871e"
+  },
+  "-": "try",
+  "Script": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f871f"
+  },
+  "to": "//",
+  "populate": "Connect",
+  "MongoDB": "to",
+  "with": "the",
+  "sample": "MongoDB",
+  "book": "server"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8720"
+  },
+  "to": "await",
+  "populate": "client.connect();"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8721"
+  },
+  "to": "console.log('Connected",
+  "populate": "to",
+  "MongoDB": "MongoDB",
+  "with": "server');"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8722"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8723"
+  },
+  "to": "//",
+  "populate": "Get",
+  "MongoDB": "database",
+  "with": "and",
+  "sample": "collection"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8724"
+  },
+  "to": "const",
+  "populate": "db",
+  "MongoDB": "=",
+  "with": "client.db(dbName);"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8725"
+  },
+  "to": "const",
+  "populate": "collection",
+  "MongoDB": "=",
+  "with": "db.collection(collectionName);"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8726"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8727"
+  },
+  "to": "//",
+  "populate": "Check",
+  "MongoDB": "if",
+  "with": "collection",
+  "sample": "already",
+  "book": "has",
+  "data": "documents"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8728"
+  },
+  "to": "const",
+  "populate": "count",
+  "MongoDB": "=",
+  "with": "await",
+  "sample": "collection.countDocuments();"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8729"
+  },
+  "to": "if",
+  "populate": "(count",
+  "MongoDB": ">",
+  "with": "0)",
+  "sample": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f872a"
+  },
+  "MongoDB": "console.log(`Collection",
+  "with": "already",
+  "sample": "contains",
+  "book": "${count}",
+  "data": "documents."
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f872b"
+  },
+  "MongoDB": "await",
+  "with": "collection.drop();"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f872c"
+  },
+  "MongoDB": "console.log('Collection",
+  "with": "dropped",
+  "sample": "successfully');"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f872d"
+  },
+  "to": "}"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f872e"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f872f"
+  },
+  "to": "//",
+  "populate": "Insert",
+  "MongoDB": "the",
+  "with": "books"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8730"
+  },
+  "to": "const",
+  "populate": "result",
+  "MongoDB": "=",
+  "with": "await",
+  "sample": "collection.insertMany(books);"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8731"
+  },
+  "to": "console.log(`${result.insertedCount}",
+  "populate": "books",
+  "MongoDB": "were",
+  "with": "successfully",
+  "sample": "inserted",
+  "book": "into",
+  "data": "the"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8732"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8733"
+  },
+  "to": "//",
+  "populate": "Display",
+  "MongoDB": "the",
+  "with": "inserted",
+  "sample": "books"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8734"
+  },
+  "to": "console.log('\\nInserted",
+  "populate": "books:');"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8735"
+  },
+  "to": "const",
+  "populate": "insertedBooks",
+  "MongoDB": "=",
+  "with": "await",
+  "sample": "collection.find({}).toArray();"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8736"
+  },
+  "to": "insertedBooks.forEach((book,",
+  "populate": "index)",
+  "MongoDB": "=>",
+  "with": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8737"
+  },
+  "MongoDB": "console.log(`${index",
+  "with": "+",
+  "sample": "1}.",
+  "book": "${book.title}",
+  "data": "by"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8738"
+  },
+  "to": "});"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8739"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f873a"
+  },
+  "-": "}",
+  "Script": "catch",
+  "to": "(err)",
+  "populate": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f873b"
+  },
+  "to": "console.error('Error",
+  "populate": "occurred:',",
+  "MongoDB": "err);"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f873c"
+  },
+  "-": "}",
+  "Script": "finally",
+  "to": "{"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f873d"
+  },
+  "to": "//",
+  "populate": "Close",
+  "MongoDB": "the",
+  "with": "connection"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f873e"
+  },
+  "to": "await",
+  "populate": "client.close();"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f873f"
+  },
+  "to": "console.log('Connection",
+  "populate": "closed');"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8740"
+  },
+  "-": "}"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8741"
+  },
+  "//": "}"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8742"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8743"
+  },
+  "//": "//",
+  "insert_books": {
+    "js": "Run"
+  },
+  "-": "the",
+  "Script": "function"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8744"
+  },
+  "//": "insertBooks().catch(console.error);"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8745"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8746"
+  },
+  "//": "/*"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8747"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "-": "Example",
+  "Script": "MongoDB",
+  "to": "queries",
+  "populate": "you",
+  "MongoDB": "can",
+  "with": "try",
+  "sample": "after",
+  "book": "running",
+  "data": "this"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8748"
+  },
+  "insert_books": {
+    "js": "*"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8749"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "-": 1,
+  "Script": "Find",
+  "to": "all",
+  "populate": "books:"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f874a"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "populate": "db.books.find()"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f874b"
+  },
+  "insert_books": {
+    "js": "*"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f874c"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "-": 2,
+  "Script": "Find",
+  "to": "books",
+  "populate": "by",
+  "MongoDB": "a",
+  "with": "specific",
+  "sample": "author:"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f874d"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "populate": "db.books.find({",
+  "MongoDB": "author:",
+  "with": "George Orwell",
+  "sample": "})"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f874e"
+  },
+  "insert_books": {
+    "js": "*"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f874f"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "-": 3,
+  "Script": "Find",
+  "to": "books",
+  "populate": "published",
+  "MongoDB": "after",
+  "with": "1950:"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8750"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "populate": "db.books.find({",
+  "MongoDB": "published_year:",
+  "with": "{",
+  "sample": "$gt:",
+  "book": 1950,
+  "data": "}"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8751"
+  },
+  "insert_books": {
+    "js": "*"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8752"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "-": 4,
+  "Script": "Find",
+  "to": "books",
+  "populate": "in",
+  "MongoDB": "a",
+  "with": "specific",
+  "sample": "genre:"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8753"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "populate": "db.books.find({",
+  "MongoDB": "genre:",
+  "with": "Fiction",
+  "sample": "})"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8754"
+  },
+  "insert_books": {
+    "js": "*"
+  }
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8755"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "-": 5,
+  "Script": "Find",
+  "to": "in-stock",
+  "populate": "books:"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8756"
+  },
+  "insert_books": {
+    "js": "*"
+  },
+  "populate": "db.books.find({",
+  "MongoDB": "in_stock:",
+  "with": true,
+  "sample": "})"
+},
+{
+  "_id": {
+    "$oid": "68444900f09bfb6ae67f8757"
+  },
+  "insert_books": {
+    "js": "*/"
+  }
+}]
