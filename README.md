@@ -2,7 +2,7 @@
 Overview
 This project demonstrates core MongoDB operations including CRUD, advanced queries, aggregation pipelines, and indexing on a plp_bookstore database.
 
-Assignment Parts
+Parts
 1. Data Insertion
 Inserted sample book documents into the books collection.
 
